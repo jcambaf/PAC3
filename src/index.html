@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Festival</title>
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+</head>
+
+<body class="contenedor-body">
+
+  <header>
+    <nav class="flex items-center justify-between flex-wrap bg-teal-100 p-5">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <a href="index.html" class="hover:text-red-600">
+          <i class="fas fa-compact-disc fill-current mr-1 text-2xl"></i>
+          <span class="font-semibold text-xl tracking-tight">Music Festival</span>
+        </a>
+      </div>
+      <div class="block sm:hidden">
+        <button id='boton-menu'
+          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-red-600 hover:border-white">
+          <i class="fas fa-bars text-white"></i>
+        </button>
+      </div>
+      <div id='menu' class="w-full flex-grow sm:flex sm:text-right sm:w-auto text-white hidden">
+        <div class="text-sm sm:flex-grow">
+          <a href="bandas.html" class="opciones-menu-superior hover:text-red-600 mr-4">
+            Bandas
+          </a>
+          <a href="#" class="opciones-menu-superior hover:text-red-600 mr-4">
+            Noticias
+          </a>
+          <a href="#" class="opciones-menu-superior hover:text-red-600">
+            Contacto
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="grid grid-cols-1 sm:grid-cols-2">
+      <img class=" border-white border-2 rounded-lg mx-auto w-2/3 sm:w-80 sm:ml-5 sm:mt-10 md:mx-auto xl:my-12"
+        src="./assets/images/pexels-mikotoraw-3769099.jpg" alt="Foto de mikoto.raw en Pexels"
+        title="Foto de mikoto.raw en Pexels" />
+      <p class="text-green-400 text-4xl mt-4 mx-auto text-center sm:text-7xl sm:self-center xl:text-8xl">
+        Music Festival
+        <span class="text-yellow-300 hidden lg:block lg:mt-6 lg:text-3xl xl:text-4xl xl:mt-8">31
+          Diciembre</span>
+      </p>
+      <p class="text-yellow-300 text-xl mt-2 mx-auto sm:mb-7 lg:hidden">31
+        Diciembre
+      </p>
+    </div>
+  </main>
+
+  <footer class="p-5 text-white">
+    <div>
+      <div class="flex justify-between items-center">
+        <a class="hover:text-red-600" href="index.html"><i class="fas fa-compact-disc text-2xl mr-1"></i>
+          <span class="font-semibold text-xl tracking-tight">Music Festival</span>
+        </a>
+        <a class="text-yellow-300 hidden md:inline-block pointer-events-none" href="#">Inicio</a>
+        <a class="hover:text-red-600 hidden md:inline-block" href="bandas.html">Bandas</a>
+        <a class="hover:text-red-600 hidden md:inline-block" href="#">Noticias</a>
+        <a class="hover:text-red-600 hidden md:inline-block" href="#">Contacto</a>
+        <div>
+          <a class="hover:text-red-600 mr-2" href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a class="hover:text-red-600 mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="hover:text-red-600" href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="flex justify-between mt-4 md:hidden">
+        <a class="text-yellow-300" href="#">Inicio</a>
+        <a class="hover:text-red-600" href="bandas.html">Bandas</a>
+        <a class="hover:text-red-600" href="#">Noticias</a>
+        <a class="hover:text-red-600" href="#">Contacto</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>

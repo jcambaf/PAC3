@@ -1,0 +1,15 @@
+.contenedor-body {
+  @apply container mx-auto bg-nuevo-100;
+}
+
+.opciones-menu-superior {
+  @apply block mt-4 sm:inline-block sm:mt-0;
+}
+
+.contenedor-card {
+  @apply my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3;
+}
+
+.articulo-card {
+  @apply overflow-hidden rounded-lg shadow-lg;
+}
